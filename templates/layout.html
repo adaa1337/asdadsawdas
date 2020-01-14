@@ -12,11 +12,14 @@
                   class = "active"
                 {% endif %} >
                 <a href="/home">Home</a></li>
+
             <li {% if active_page == 'about' %}
                   class = "active"
                 {% endif %} >
-                <a href="/about">About</a></li>
-            <li {% if active_page == 'about' %}
+                <a href="/about">About</a>
+                </li>
+
+            <li {% if active_page == 'contact' %}
                   class = "active"
                 {% endif %} ><a href="/contact">Contact</a></li>
           </ul>
